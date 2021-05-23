@@ -7,5 +7,5 @@ app.use(cors());
 app.get("/api", (req, res) => {
   res.status(200).json({ api: "API version 1 is working" });
 });
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`server started on port ${PORT}`));
