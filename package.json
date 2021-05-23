@@ -1,0 +1,30 @@
+{
+  "name": "random-african-quotes",
+  "version": "1.0.0",
+  "description": "Random african quote api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonarhyme/random-african-quotes.git"
+  },
+  "keywords": [
+    "Random",
+    "quotes",
+    "african",
+    "quotes",
+    "quotes"
+  ],
+  "author": "Bonaventure Chukwudi (Bonarhyme)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonarhyme/random-african-quotes/issues"
+  },
+  "homepage": "https://github.com/bonarhyme/random-african-quotes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
